@@ -14,7 +14,7 @@ import (
 	"github.com/emersion/go-imap"
 	move "github.com/emersion/go-imap-move"
 	"github.com/emersion/go-imap/backend"
-	"github.com/foxcpp/go-sqlmail/imap/children"
+	"github.com/sapiens-sapide/go-sqlmail/imap/children"
 	"gotest.tools/assert"
 	is "gotest.tools/assert/cmp"
 )

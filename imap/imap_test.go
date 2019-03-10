@@ -7,10 +7,10 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/foxcpp/go-sqlmail/imap/testsuite"
 	_ "github.com/go-sql-driver/mysql"
 	_ "github.com/lib/pq"
 	_ "github.com/mattn/go-sqlite3"
+	"github.com/sapiens-sapide/go-sqlmail/imap/testsuite"
 )
 
 var TestDB = os.Getenv("TEST_DB")

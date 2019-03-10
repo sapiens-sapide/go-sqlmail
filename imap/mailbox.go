@@ -12,8 +12,8 @@ import (
 	"github.com/emersion/go-imap/backend"
 	"github.com/emersion/go-imap/backend/backendutil"
 	"github.com/emersion/go-message"
-	"github.com/foxcpp/go-sqlmail/imap/children"
 	"github.com/pkg/errors"
+	"github.com/sapiens-sapide/go-sqlmail/imap/children"
 )
 
 const flagsSep = "{"

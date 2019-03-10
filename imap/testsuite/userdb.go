@@ -4,7 +4,7 @@ import (
 	"testing"
 
 	"github.com/emersion/go-imap/backend"
-	"github.com/foxcpp/go-sqlmail"
+	"github.com/sapiens-sapide/go-sqlmail"
 	"gotest.tools/assert"
 )
 
